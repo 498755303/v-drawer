@@ -1,0 +1,32 @@
+{
+  "name": "vdrawer",
+  "version": "0.1.0",
+  "description": "基于 Vue 的drawer",
+  "main": "lib/vDrawer.umd.min.js",
+  "keyword": "vDrawer drawer vue-drawer",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vDrawer --dest lib packages/hldrawer/index.js"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "v-click-outside-x": "^4.0.10",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.3",
+    "@vue/cli-plugin-eslint": "^3.0.3",
+    "@vue/cli-service": "^3.0.3",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
+

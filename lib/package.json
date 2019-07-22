@@ -1,0 +1,8 @@
+{
+  "name": "vdrawer",
+  "version": "1.0",
+  "description": "基于 Vue 的drawer",
+  "main": "lib/vDrawer.umd.min.js",
+  "keyword": "vDrawer drawer vue-drawer",
+  "private": false
+ }
