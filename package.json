@@ -1,5 +1,5 @@
 {
-  "name": "vdrawer",
+  "name": "vdrawer-hl",
   "version": "0.1.0",
   "description": "基于 Vue 的drawer",
   "main": "lib/vDrawer.umd.min.js",
